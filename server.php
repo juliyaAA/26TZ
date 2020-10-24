@@ -11,7 +11,7 @@ class UserData
     }
     public function saveData() 
     {
-        return $this->name = $_GET['name'];
+        return $this->name = $_POST['name'];
     }
    
 }
