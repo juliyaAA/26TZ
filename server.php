@@ -2,7 +2,7 @@
 
 class UserData 
 {   
-    private $phone ;
+    public $phone;
     public $name;
     
     public function isOk() 

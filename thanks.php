@@ -8,12 +8,16 @@
     </head>
     <body>
     <?php
-        if(!isset($_GET['name'])) {
-            echo 'Извините, произошла ошибка.';
+     
+        if (!isset ($_GET['name'])) {
+            echo 'Укажите имя!';
+        } else if (!isset ($_GET['phone'])) {
+            echo 'Укажите номер телефона!';
         } else {
         echo 'Спасибо,' . $_GET['name'] .', мы свяжемся с вами в ближайшее время.';
         }
-       
+     
+
     ?>
 
         
