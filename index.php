@@ -14,7 +14,7 @@
             <input type="text" name="name" value="">
         </div>
         <div>
-            <input type="text" name="phone" value="" placeholder="+79999999999">
+            <input type="text" name="phone" value="" placeholder="89999999999">
         </div>
         <div>
             <input type="submit" name="submit" value="Отправить">
